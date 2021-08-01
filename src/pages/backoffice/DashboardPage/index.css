@@ -1,0 +1,247 @@
+
+#animationContainer {
+    width:100% ;
+    margin:auto;
+}
+
+#flexContainer {
+    display:flex ;
+    align-items:center ;
+    justify-content:center ;
+    height:90vh ;
+    width:80% ;
+    max-width:2400px;
+    margin:auto ;
+    position:relative ;
+    right:3%;
+}
+
+#backoffice {
+    font-size:3em;
+    position:absolute;
+    left:61%;
+    z-index:2;
+    top:55%;
+}
+
+#title {
+    font-size:10em;
+    position:absolute;
+    left:23%;
+    z-index:2;
+    top:35%;
+}
+
+#triangle {
+    width:30%;
+    margin-left:1%;
+    height:500px;
+    background-color:#DB5752;
+    clip-path:polygon(50% 0, 100% 100%, 0 100%);
+}
+
+#square {
+    width:30%;
+    margin-left:1%;
+    height:500px;
+    background-color:#FAFA88;
+}
+
+#circle {
+    width:30%;
+    margin-left:1%;
+    height:500px;
+    background-color:#9AC9FB;
+    border-radius:50%;
+}
+
+#dash {
+    width:10%;
+    margin-left:5%;
+    height:500px;
+    background-color:#000;
+    transform:rotate(-18deg);
+}
+
+@media (max-width:1400px) {
+
+    #animationContainer {
+        width:100% ;
+        margin:auto;
+    }
+    #title {
+        font-size:8em;
+        left:20%;
+    }
+    #backoffice {
+        top:55%;
+        left: 62%;
+        font-size: 2.5em;
+    }
+
+    #triangle {
+        width:30%;
+        margin-left:1%;
+        height:300px;
+    }
+    
+    #square {
+        width:30%;
+        margin-left:1%;
+        height:300px;
+    }
+    
+    #circle {
+        width:30%;
+        margin-left:1%;
+        height:300px;
+    }
+    
+    #dash {
+        width:10%;
+        margin-left:5%;
+        height:300px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    #flexContainer {
+        height: 50vh;
+    }
+    
+    #animationContainer {
+        width:90% ;
+        margin:auto;
+    }
+
+    #title {
+        font-size:4em;
+        left:25%;
+        top: 37%;
+    }
+
+    #backoffice {
+        top:54%;
+        left: 48.5%;
+        font-size: 2em;
+    }
+
+    #triangle {
+        width:30%;
+        margin-left:1%;
+        height:200px;
+    }
+    
+    #square {
+        width:30%;
+        margin-left:1%;
+        height:200px;
+    }
+    
+    #circle {
+        width:30%;
+        margin-left:1%;
+        height:200px;
+    }
+    
+    #dash {
+        width:10%;
+        margin-left:5%;
+        height: 200px;
+    }
+}
+
+@media (max-width:800px) {
+        
+    #animationContainer {
+        width:100% ;
+        margin:auto;
+    }
+
+    #title {
+        font-size:4em;
+        left:23%;
+        top: 39%;
+    }
+
+    #backoffice {
+        top:57%;
+        left: 56%;
+        font-size: 1.5em;
+    }
+
+    #triangle {
+        width:30%;
+        margin-left:1%;
+        height:200px;
+    }
+    
+    #square {
+        width:30%;
+        margin-left:1%;
+        height:200px;
+    }
+    
+    #circle {
+        width:30%;
+        margin-left:1%;
+        height:200px;
+    }
+    
+    #dash {
+        width:10%;
+        margin-left:5%;
+        height: 200px;
+    }
+}
+
+@media (max-width:600px) {
+    #animationContainer {
+        width:100% ;
+        margin:auto;
+    }
+
+    #title {
+        font-size:2.5em;
+        left:27%;
+        top: 42%;
+    }
+
+    #backoffice {
+        top:53%;
+        left: 50%;
+        font-size: 1.2em;
+    }
+
+    #triangle {
+        width:30%;
+        margin-left:1%;
+        height:140px;
+    }
+    
+    #square {
+        width:30%;
+        margin-left:1%;
+        height:140px;
+    }
+    
+    #circle {
+        width:30%;
+        margin-left:1%;
+        height:140px;
+    }
+    
+    #dash {
+        width:10%;
+        margin-left:5%;
+        height: 140px;
+    }
+    
+}
+
+@media (max-width:500px) {
+    #animationContainer {
+        display: none;
+    }
+}

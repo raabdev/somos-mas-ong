@@ -1,0 +1,13 @@
+.textTitleComponent {
+    font-size: 3.5em;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.imageTitleComponent {
+    width: 100%;
+}

@@ -1,0 +1,6 @@
+.gradientHero{
+  background: linear-gradient(to left, #0000005b, #1213138a, #0f2027aa), url('https://images.unsplash.com/photo-1522661067900-ab829854a57f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80');
+  background-repeat: no-repeat;
+ 
+  background-position: center; 
+}

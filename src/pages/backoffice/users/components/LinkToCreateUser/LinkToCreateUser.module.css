@@ -1,0 +1,10 @@
+.linkToAddUser {
+  background: #9ac9fb;
+  border-radius: var(--chakra-radii-md);
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+}
+
+.linkToAddUser:hover {
+  background: #ebedf0;
+}

@@ -1,0 +1,13 @@
+.box-title {
+    margin-top: 20px !important;
+    color: rgb(118, 197, 215) !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+.box-content {
+    text-align: center !important;
+    font-style: italic !important;
+    width: 80% !important;
+}

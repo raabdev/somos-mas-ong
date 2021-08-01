@@ -1,0 +1,117 @@
+.div-background {
+    background: linear-gradient(to left, #0000005b, #1213138a, #0f2027aa), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+    background-repeat: no-repeat;   
+    background-position: center; 
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.div-background div div {
+    width: 42%;
+    margin: 0px auto;
+}
+
+.div-background h2 {
+    color: white;
+  
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.div-background p {
+    color: rgb(237, 233, 233);
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 2.0;
+}
+
+.about-us-text {
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 10%;
+    color: rgb(118, 197, 215);
+}
+
+.line {
+    height: 1.5px;
+    width: 9%;
+    background-color: rgb(114, 191, 208);
+    position: absolute;
+    top: 540px;
+    
+}
+
+@media screen and ( max-width: 960px ) {
+    .div-background {
+        height: 450px;
+    }
+    .div-background div div {
+        width: 70%;
+        margin: 0px auto;
+    }
+    .line {
+        /* height: 1.5px;
+        width: 20%;
+        background-color: rgb(114, 191, 208);
+        position: absolute;
+        top: 45px; */
+        display:none
+       
+    }
+}
+
+@media screen and ( max-width: 525px ) {
+    .div-background {
+        height: 550px;
+    }
+    .div-background div div {
+        width: 70%;
+        margin: 0px auto;
+    }
+    .line {
+        height: 1.5px;
+        width: 9%;
+        background-color: rgb(114, 191, 208);
+        position: absolute;
+        top: 675px;
+    }
+}
+
+
+@media screen and ( max-width: 400px ) {
+    .div-background {
+        height: 500px;
+    }
+    .div-background h2 {
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: lighter;
+    }
+    
+    .div-background p {
+        color: rgb(237, 233, 233);
+        font-size: 22px;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .div-background div div {
+        width: 70%;
+        margin: 0px auto;
+    }
+    .line {
+        height: 1.5px;
+        width: 9%;
+        background-color: rgb(114, 191, 208);
+        position: absolute;
+        top: 625px;
+    }
+}
